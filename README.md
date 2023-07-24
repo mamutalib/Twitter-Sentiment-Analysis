@@ -1,3 +1,15 @@
+![GitHub](https://img.shields.io/github/license/mamutalib/Twitter-Sentiment-Analysis) ![GitHub Repo stars](https://img.shields.io/github/stars/mamutalib/Twitter-Sentiment-Analysis) ![GitHub watchers](https://img.shields.io/github/watchers/mamutalib/Twitter-Sentiment-Analysis)
+![GitHub forks](https://img.shields.io/github/forks/mamutalib/Twitter-Sentiment-Analysis) ![GitHub repo size](https://img.shields.io/github/repo-size/mamutalib/Twitter-Sentiment-Analysis)
+
+# Contents
+- [Introduction](#introduction)
+- [Data Set](#data-collection)
+- [Methodology](#methodology)
+    - [Preproceccing](#data-preprocessing)
+    - [Feature Extraction](#feature-extraction)
+    - [Results](#results)
+    - [Model Evaluation ](#model-evaluation)
+
 # Introduction
 
 In this project, we explore sentiment analysis, a powerful tool for understanding people's emotions and opinions in text. Our focus is on Twitter data, where users express their feelings on various topics. The goal is to build a machine learning model that can accurately predict whether a tweet's sentiment is positive or negative. 
