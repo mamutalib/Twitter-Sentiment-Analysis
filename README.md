@@ -12,7 +12,7 @@ We gathered our data from Kaggle, a reliable platform for accessing datasets. Th
 
 By using this pre-processed dataset, we could concentrate on model development and analysis without worrying about data complexities or user privacy. It provided a solid starting point for our sentiment analysis project. 
 
-| ![dataset-sample.png](docs/dataset-sample.png) |
+| ![Figure 1 Data Set Sample ](docs/dataset-sample.png) |
 |:--:|
 | <i>Figure 1 Data Set Sample 
 </i>|
@@ -30,7 +30,7 @@ During the data preprocessing phase, we took several important steps to ensure t
 1. Removing Hashtags: Hashtags like "#sentimentanalysis" were  excluded from the text during preprocessing. While hashtags are vital for categorizing and indexing social media content, they are not relevant to sentiment analysis, and excluding them improves the accuracy of our sentiment predictions. 
 
 
-| ![dataset-sample.png](docs/preprocessed-data.png) |
+| ![Data set after preprocessing ](docs/preprocessed-data.png) |
 |:--:|
 | <i>Figure 2 Data set after preprocessing 
 </i>|
@@ -41,7 +41,7 @@ After preprocessing our data, we created word clouds to visualize the most frequ
 
 Negative word like “bad”, “suck”, “sad” etc are shown on the word cloud picture.  
 
-| ![dataset-sample.png](docs/word-cloud-negative-tweet.png) |
+| ![Word Cloud based on Negative Tweet  ](docs/word-cloud-negative-tweet.png) |
 |:--:|
 | <i>
 Figure 3 Word Cloud based on Negative Tweet  
@@ -52,7 +52,7 @@ Figure 3 Word Cloud based on Negative Tweet
 
 Positive  Words  like  "love,"  "happy,"  "good,"  and  "great"  are  shown  in  the  word  cloud. 
 
-| ![dataset-sample.png](docs/word-cloud-positive-tweet.png) |
+| ![ Word Cloud based on Negative Tweet ](docs/word-cloud-positive-tweet.png) |
 |:--:|
 | <i>
 Figure 4 Word Cloud based on Negative Tweet  
@@ -76,13 +76,13 @@ During the feature extraction phase, we use **TfidfVectorizer** to convert prepr
 |**Naive Bayes Model** |82% |80% |
 |**Logistic Regression** |85% |82% |
 
-| ![dataset-sample.png](docs/Prediction.png) |
+| ![dataset-sample.png](docs/prediction.png) |
 |:--:|
 | <i>
 Figure 5 Prediction on unseen data set.
 </i>| 
  
 
-**Model Evaluation** 
+## Model Evaluation
 
 In conclusion, the SVM model achieved the highest accuracy on the training data (90%) but slightly lower accuracy on the testing data (81%), indicating some degree of overfitting. The Linear Regression (LR) model performed well on both training (85%) and testing (82%) data, showing better  generalization  compared  to  SVM.  The  Naïve  Bayes  model  also  exhibited  reasonable performance, with 82% accuracy on the training data and 80% on the testing data. Overall, the LR model  appears  to  be  the  most  balanced  and  suitable  choice,  as  it  demonstrated  competitive accuracy on both training and testing datasets without significant overfitting. 
